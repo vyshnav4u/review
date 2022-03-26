@@ -5,6 +5,13 @@ function ReviewCard() {
   const [person, setPerson] = useState(reviewData[0]);
   const dataLength = reviewData.length - 1;
 
+  //   const chnageReviewBtn = document.querySelectorAll(".pagination-btn");
+  //   console.log(chnageReviewBtn);
+  document.addEventListener("keydown", (e) => {
+    if (e.keyCode === 37) nextReview();
+    if (e.keyCode === 39) prevReview();
+  });
+
   /**
    * load next reveiw
    * @author YsH
