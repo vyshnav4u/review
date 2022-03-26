@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.header {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.underline {
+  height: 4px;
+  background: #49a6e9;
+  width: 50%;
+  margin: auto;
+}

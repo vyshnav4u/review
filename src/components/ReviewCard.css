@@ -1,0 +1,104 @@
+.single-review-wrap {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  margin-bottom: 80px;
+  max-width: 600px;
+}
+
+.top-info {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.top-info img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 8px -6px 0 0 #49a6e9;
+}
+
+.top-info p {
+  font-size: 14px;
+}
+
+.top-info h2 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.top-info p {
+  margin-top: 4px;
+}
+
+.single-review-wrap section,
+.single-review-wrap footer {
+  display: grid;
+  justify-content: center;
+}
+
+.single-review-wrap h2,
+.single-review-wrap p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.mid-info p {
+  color: #617d98;
+}
+
+.pagination-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: min-content;
+}
+
+.pagination-btn svg {
+  height: 24px;
+  width: 24px;
+  font-weight: 600;
+  color: #49a6e9;
+}
+
+.pagination-btn:hover svg {
+  color: #617d98;
+}
+
+.pagination-wrap {
+  grid-template-columns: 1fr 1fr;
+  margin: 12px auto;
+  gap: 16px;
+}
+
+.gen-btn {
+  background: #ebf7ff;
+  color: #49a6e9;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.gen-btn:hover {
+  color: #617d98;
+}
+
+.quote-icon {
+  position: absolute;
+  top: 13px;
+  left: calc(50% - 80px);
+  background: #49a6e9;
+  padding: 11px 13px;
+  border-radius: 50%;
+}
+
+.quote-icon svg {
+  color: #fff;
+}
